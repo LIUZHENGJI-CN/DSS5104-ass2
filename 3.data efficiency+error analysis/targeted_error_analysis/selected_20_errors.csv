@@ -1,0 +1,21 @@
+index,true_label_idx,true_label_name,pred_label_idx,pred_label_name,pred_confidence,true_class_confidence,is_misclassified,selection_group,saved_path
+3731,7,cancer_associated_stroma,5,smooth_muscle,0.9999986886978149,8.04017247446609e-07,True,cancer_associated_stroma -> smooth_muscle,targeted_error_analysis\selected_images\00_idx3731_true7_pred5.png
+1545,7,cancer_associated_stroma,5,smooth_muscle,0.9999932050704956,2.1442349407152506e-06,True,cancer_associated_stroma -> smooth_muscle,targeted_error_analysis\selected_images\01_idx1545_true7_pred5.png
+6405,7,cancer_associated_stroma,5,smooth_muscle,0.9999768733978271,1.0775469490909018e-05,True,cancer_associated_stroma -> smooth_muscle,targeted_error_analysis\selected_images\02_idx6405_true7_pred5.png
+1148,7,cancer_associated_stroma,5,smooth_muscle,0.9999514818191528,4.338694998295978e-05,True,cancer_associated_stroma -> smooth_muscle,targeted_error_analysis\selected_images\03_idx1148_true7_pred5.png
+5328,7,cancer_associated_stroma,5,smooth_muscle,0.9999454021453857,4.330512456363067e-05,True,cancer_associated_stroma -> smooth_muscle,targeted_error_analysis\selected_images\04_idx5328_true7_pred5.png
+3174,7,cancer_associated_stroma,8,colorectal_adenocarcinoma_epithelium,0.9999117851257324,2.9960297979414463e-05,True,cancer_associated_stroma -> colorectal_adenocarcinoma_epithelium,targeted_error_analysis\selected_images\05_idx3174_true7_pred8.png
+1096,7,cancer_associated_stroma,8,colorectal_adenocarcinoma_epithelium,0.9990993738174438,0.0006655911565758288,True,cancer_associated_stroma -> colorectal_adenocarcinoma_epithelium,targeted_error_analysis\selected_images\06_idx1096_true7_pred8.png
+5745,7,cancer_associated_stroma,8,colorectal_adenocarcinoma_epithelium,0.9986618757247925,0.0006597739411517978,True,cancer_associated_stroma -> colorectal_adenocarcinoma_epithelium,targeted_error_analysis\selected_images\07_idx5745_true7_pred8.png
+2328,7,cancer_associated_stroma,2,debris,0.9868083596229553,0.0010001009795814753,True,cancer_associated_stroma -> debris,targeted_error_analysis\selected_images\08_idx2328_true7_pred2.png
+2845,7,cancer_associated_stroma,2,debris,0.9694929718971252,0.028825676068663597,True,cancer_associated_stroma -> debris,targeted_error_analysis\selected_images\09_idx2845_true7_pred2.png
+4057,7,cancer_associated_stroma,2,debris,0.9692215919494629,0.014569289050996304,True,cancer_associated_stroma -> debris,targeted_error_analysis\selected_images\10_idx4057_true7_pred2.png
+4488,4,mucus,0,adipose,0.995805025100708,0.0026559382677078247,True,mucus -> adipose,targeted_error_analysis\selected_images\11_idx4488_true4_pred0.png
+346,4,mucus,0,adipose,0.9943760633468628,0.005077642388641834,True,mucus -> adipose,targeted_error_analysis\selected_images\12_idx346_true4_pred0.png
+3509,6,normal_colon_mucosa,8,colorectal_adenocarcinoma_epithelium,0.9973177313804626,0.0025043312925845385,True,normal_colon_mucosa -> colorectal_adenocarcinoma_epithelium,targeted_error_analysis\selected_images\13_idx3509_true6_pred8.png
+691,6,normal_colon_mucosa,8,colorectal_adenocarcinoma_epithelium,0.9814121723175049,0.016285495832562447,True,normal_colon_mucosa -> colorectal_adenocarcinoma_epithelium,targeted_error_analysis\selected_images\14_idx691_true6_pred8.png
+3739,0,adipose,5,smooth_muscle,0.9777555465698242,0.01996493898332119,True,adipose -> smooth_muscle,targeted_error_analysis\selected_images\15_idx3739_true0_pred5.png
+2135,0,adipose,5,smooth_muscle,0.9739685654640198,0.023406898602843285,True,adipose -> smooth_muscle,targeted_error_analysis\selected_images\16_idx2135_true0_pred5.png
+1781,5,smooth_muscle,7,cancer_associated_stroma,0.9389907121658325,0.06086168438196182,True,smooth_muscle -> cancer_associated_stroma,targeted_error_analysis\selected_images\17_idx1781_true5_pred7.png
+6700,2,debris,5,smooth_muscle,0.9246279001235962,0.07529038190841675,True,debris -> smooth_muscle,targeted_error_analysis\selected_images\18_idx6700_true2_pred5.png
+6252,6,normal_colon_mucosa,3,lymphocytes,0.8831923604011536,0.10189008712768555,True,normal_colon_mucosa -> lymphocytes,targeted_error_analysis\selected_images\19_idx6252_true6_pred3.png

@@ -1,0 +1,20 @@
+{
+    "run_name": "resnet50_full_pretrained_frac1.0_seed42",
+    "run_dir": "experiment result\\resnet50_full_pretrained_frac1.0_seed42",
+    "fraction": 1.0,
+    "train_size": 89996,
+    "seed": 42,
+    "init_type": "pretrained",
+    "best_epoch": 8,
+    "best_val_acc": 0.9911035585765694,
+    "test_accuracy": 0.9456824512534819,
+    "test_macro_f1": 0.9225130224995763,
+    "best_class_name": "background",
+    "best_class_precision": 0.9906432748538012,
+    "best_class_recall": 1.0,
+    "best_class_f1": 0.9952996474735605,
+    "worst_class_name": "cancer_associated_stroma",
+    "worst_class_precision": 0.895910780669145,
+    "worst_class_recall": 0.5724465558194775,
+    "worst_class_f1": 0.6985507246376812
+}
