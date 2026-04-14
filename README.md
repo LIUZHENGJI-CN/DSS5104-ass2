@@ -73,4 +73,6 @@ This loads the selected best model checkpoint from the data efficiency experimen
 (Required path: experiment result/resnet50_full_pretrained_frac1.0_seed42/best_model.pth)
 
 
+****note****: Due to GitHub file size limits, the .pth files are not included here; they will be generated in the corresponding paths when the training scripts are rerun.
+
 
