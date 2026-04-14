@@ -4,7 +4,7 @@ DSS5104 team19 assignment 2
 
 This project builds a complete transfer learning pipeline for PathMNIST image classification. It begins with data loading, preprocessing, and visual inspection to verify the classes, input format, and overall data characteristics. In the model selection stage, three backbone architectures—ResNet-50, EfficientNet-B0, and Swin-T—are compared under settings including feature extraction, full fine-tuning, and data augmentation. Based on these results, the best-performing model was further refined through additional exploration of data augmentation, in order to examine more how this affects generalization performance. The final selected architecture is then used for a data efficiency experiment, comparing pretrained initialization and training from scratch at 100%, 50%, 25%, 10%, and 5% of the training data to examine the value of transfer learning under limited-data conditions. Finally, the best model is analyzed through confusion matrix analysis, per-class metrics, and representative misclassified examples, forming a complete workflow from model comparison to detailed evaluation.
 
-#2.basic setup:
+#2.basic setup
 
 dataset: PathMNIST  
 pretrained architectures: ResNet-50, EfficientNet-B0, Swin Transformer(Tiny)  
@@ -12,7 +12,7 @@ strategies: feature extraction, full fine-tuning, data augmentation
 
 #3.Main Scripts and explanations
 
-****note****: Due to GitHub file size limits, the .pth files are not included here; they will be generated in the corresponding paths when the training scripts are rerun.
+****Note****: Due to GitHub file size limits, the .pth files are not included here; they will be generated in the corresponding paths when the training scripts are rerun.
 
 ##3.1 ****model selection+strategy comparison****:
 
@@ -62,7 +62,7 @@ experiment result/
 ```
 The script generates a folder named experiment result/. Inside it, there are overall summary files and 30 configuration-specific subfolders. Each subfolder follows the naming format resnet50_full_{pretrained|scratch}_frac{fraction}_seed{seed} and contains the saved model and evaluation outputs for that run. The overall results and best model are shown in the 'important experiment results' folder. 
 
-3.3.3 ****error analysis.py****  
+###3.3.3 ****error analysis.py****  
 This loads the selected best model checkpoint from the data efficiency experiment, reruns inference on the full PathMNIST test set, and selects 20 representative misclassified examples according to predefined error-type pairs, while saving the corresponding images and prediction tables. The examples and the explanation for them are shown in the 'targeted_error_analysis' folder.
 (Required path: experiment result/resnet50_full_pretrained_frac1.0_seed42/best_model.pth)
 
