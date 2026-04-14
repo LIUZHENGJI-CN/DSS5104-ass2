@@ -9,9 +9,10 @@ This project builds a complete transfer learning pipeline for PathMNIST image cl
 dataset: PathMNIST  
 pretrained architectures: ResNet-50, EfficientNet-B0, Swin Transformer(Tiny)  
 strategies: feature extraction, full fine-tuning, data augmentation  
-****note****: Due to GitHub file size limits, the .pth files are not included here; they will be generated in the corresponding paths when the training scripts are rerun.
 
 #3.Main Scripts and explanations
+
+****note****: Due to GitHub file size limits, the .pth files are not included here; they will be generated in the corresponding paths when the training scripts are rerun.
 
 ##3.1 ****model selection+strategy comparison****:
 
