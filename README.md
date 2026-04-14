@@ -9,6 +9,7 @@ This project builds a complete transfer learning pipeline for PathMNIST image cl
 dataset: PathMNIST  
 pretrained architectures: ResNet-50, EfficientNet-B0, Swin Transformer(Tiny)  
 strategies: feature extraction, full fine-tuning, data augmentation  
+****note****: Due to GitHub file size limits, the .pth files are not included here; they will be generated in the corresponding paths when the training scripts are rerun.
 
 #3.Main Scripts and explanations
 
@@ -72,7 +73,5 @@ The script generates a folder named experiment result/. Inside it, there are ove
 This loads the selected best model checkpoint from the data efficiency experiment, reruns inference on the full PathMNIST test set, and selects 20 representative misclassified examples according to predefined error-type pairs, while saving the corresponding images and prediction tables. The examples and the explanation for them are shown in the 'targeted_error_analysis' folder.
 (Required path: experiment result/resnet50_full_pretrained_frac1.0_seed42/best_model.pth)
 
-
-****note****: Due to GitHub file size limits, the .pth files are not included here; they will be generated in the corresponding paths when the training scripts are rerun.
 
 
